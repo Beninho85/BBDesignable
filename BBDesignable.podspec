@@ -30,5 +30,5 @@ s.framework = "UIKit"
 s.source_files = "BBDesignable/**/*.{swift}"
 
 # 9
-s.resources = "BBDesignable/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "BBDesignable/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
