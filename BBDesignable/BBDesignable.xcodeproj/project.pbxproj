@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		597D07F11EC66305007A512E /* BBDesignable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597D07E71EC66305007A512E /* BBDesignable.framework */; };
-		597D07F61EC66305007A512E /* BBDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597D07F51EC66305007A512E /* BBDesignableTests.swift */; };
 		597D07F81EC66305007A512E /* BBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = 597D07EA1EC66305007A512E /* BBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		597D08031EC6632A007A512E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597D08021EC6632A007A512E /* UIView.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 		597D07EA1EC66305007A512E /* BBDesignable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignable.h; sourceTree = "<group>"; };
 		597D07EB1EC66305007A512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597D07F01EC66305007A512E /* BBDesignableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBDesignableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		597D07F51EC66305007A512E /* BBDesignableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBDesignableTests.swift; sourceTree = "<group>"; };
-		597D07F71EC66305007A512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597D08021EC6632A007A512E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = UIView/UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				597D07E91EC66305007A512E /* BBDesignable */,
-				597D07F41EC66305007A512E /* BBDesignableTests */,
 				597D07E81EC66305007A512E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,15 +74,6 @@
 				597D07EB1EC66305007A512E /* Info.plist */,
 			);
 			path = BBDesignable;
-			sourceTree = "<group>";
-		};
-		597D07F41EC66305007A512E /* BBDesignableTests */ = {
-			isa = PBXGroup;
-			children = (
-				597D07F51EC66305007A512E /* BBDesignableTests.swift */,
-				597D07F71EC66305007A512E /* Info.plist */,
-			);
-			path = BBDesignableTests;
 			sourceTree = "<group>";
 		};
 		597D08011EC6630F007A512E /* UIView */ = {
@@ -218,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597D07F61EC66305007A512E /* BBDesignableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +408,7 @@
 				597D07FD1EC66305007A512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		597D07FE1EC66305007A512E /* Build configuration list for PBXNativeTarget "BBDesignableTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +417,7 @@
 				597D08001EC66305007A512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
