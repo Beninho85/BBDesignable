@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 s.name = "BBDesignable"
 s.summary = "Some cool functionalities directly inside Storyboards and xibs"
 s.requires_arc = true
 
 # 2
-s.version = "0.2.0"
+s.version = "0.3.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
