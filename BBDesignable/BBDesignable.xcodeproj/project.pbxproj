@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590E9BEF1ECB9C77000C50BE /* UITextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E9BEE1ECB9C77000C50BE /* UITextfield.swift */; };
+		590E9BF11ECB9E33000C50BE /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E9BF01ECB9E33000C50BE /* UIButton.swift */; };
+		590E9BF31ECB9E4A000C50BE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E9BF21ECB9E4A000C50BE /* UILabel.swift */; };
 		597D07F11EC66305007A512E /* BBDesignable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597D07E71EC66305007A512E /* BBDesignable.framework */; };
 		597D07F81EC66305007A512E /* BBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = 597D07EA1EC66305007A512E /* BBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		597D08031EC6632A007A512E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597D08021EC6632A007A512E /* UIView.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		590E9BEE1ECB9C77000C50BE /* UITextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextfield.swift; sourceTree = "<group>"; };
+		590E9BF01ECB9E33000C50BE /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		590E9BF21ECB9E4A000C50BE /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		597D07E71EC66305007A512E /* BBDesignable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBDesignable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		597D07EA1EC66305007A512E /* BBDesignable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignable.h; sourceTree = "<group>"; };
 		597D07EB1EC66305007A512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 		597D07E91EC66305007A512E /* BBDesignable */ = {
 			isa = PBXGroup;
 			children = (
+				590E9BEE1ECB9C77000C50BE /* UITextfield.swift */,
+				590E9BF01ECB9E33000C50BE /* UIButton.swift */,
+				590E9BF21ECB9E4A000C50BE /* UILabel.swift */,
 				597D08011EC6630F007A512E /* UIView */,
 				597D07EA1EC66305007A512E /* BBDesignable.h */,
 				597D07EB1EC66305007A512E /* Info.plist */,
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				597D08031EC6632A007A512E /* UIView.swift in Sources */,
+				590E9BEF1ECB9C77000C50BE /* UITextfield.swift in Sources */,
+				590E9BF31ECB9E4A000C50BE /* UILabel.swift in Sources */,
+				590E9BF11ECB9E33000C50BE /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
