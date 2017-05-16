@@ -28,7 +28,7 @@ public extension UIView {
             return UIColor(cgColor: color)
         }
         set {
-            layer.borderColor = borderColor?.cgColor
+            layer.borderColor = newValue?.cgColor
         }
     }
     
